@@ -11,6 +11,7 @@ fetch('https://fakestoreapi.com/products').then((data)=>{
     <p>${values.description}</p>
     <p class="category">${values.category}</p>
     <p class="price">${values.price}</p>
+    <button>Order</button>
     </div> `;
     });
     document.getElementById("container").innerHTML=data1
